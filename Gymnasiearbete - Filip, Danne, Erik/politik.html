@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gymnasiearbete</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/basic.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	
+		<!-- Use any element to open the sidenav -->
+		<!--<a class="navbar-brand" href="index.html"> <img src="img/PHBsmall.png" height="50" alt=""></a> -->
+		
+		
+		<a class="navbar-brand" href="index.html"> <img src="img/PHBbig.png" height="50" alt=""></a>
+		
+		<br>		<br>		<br>		<br>
+		
+		<button type="button" class="btn" id="openBTN" onclick="openNav()">MENY</button>
+	
+		
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="sportochnoje.html">Sport Och Nöje</a>
+				<a href="vetenskap.html">Vetenskap</a>
+				<a href="nyheter.html">Nyheter</a>
+				<a href="politik.html">Politik</a>
+			</div>
+		
+		
+    </nav>
+	
+	<div class="container">
+	
+		<div class="row">
+			<div class="col-sm-4">
+			
+				<a href="artikel2.html" class="thumbnail">
+					<img src="img/donaldtrump.jpg" alt="Slate Bootstrap Admin Theme">
+				</a>
+				<a href="artikel2.html"><h3> Donald Trumps ryktas skattefuska</h3></a>
+				
+				<p> TV-kanalen MSNBC fick tag på Donald Trumps inkomster,
+				kort efter släppte Vita huset siffrorna själv. Trots att 
+				Vita huset gick ut med siffrorna slår president Trump tillbaka. 
+				Via Twitter påstår presidenten att detta är ”FAKE NEWS”.<p>
+				
+			</div>
+			
+			<div class="col-sm-4">
+				
+				<a href="" class="thumbnail">
+					<img src="img/politik.jpg" alt="Slate Bootstrap Admin Theme">
+				</a>
+				
+				<h3> Gustav Fridolin är inte trovärdig i terrorfrågan</h3>
+				
+				<p>Gustav Fridolin låtsas som att MP har tagit terrorhotet på allvar under lång tid.
+					I själva verket har partiet motarbetat Säpos arbete mot terrorism i decennier.<p>
+
+			</div>
+			
+			<div class="col-sm-4">
+			
+				<a href="" class="thumbnail">
+					<img src="img/politik2.jpg" alt="Slate Bootstrap Admin Theme">
+				</a>
+				
+				<h3>S lät sig köras över av vänstern om skatten</h3>
+				
+				<p> Jag kan i dag avslöja att finansdepartementets entusiasm för sina egna planer inte är helhjärtad.
+				<p>
+
+			</div>
+		
+			
+			
+		</div>
+		
+	</div>
+	
+	
+	
+
+
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+	
+
+   
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+
+
+</body>
+
+</html>
